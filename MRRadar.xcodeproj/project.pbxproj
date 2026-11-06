@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E1CDC89BC05CB48C14849A /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A162B50739501DB245FD01 /* Notifier.swift */; };
+		09EE519BEDF1E5974E078F2D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840750E82527C488774A342 /* OnboardingView.swift */; };
+		0FB083BAE6112307CD4D8975 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106D8D214B7B48C8CFB7AA5 /* LaunchAtLogin.swift */; };
+		13C313CB2F4B7802ED3691DC /* RadarKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0810F0510AAB2A8FDD09A44 /* RadarKit */; };
+		1DFDAEB4EBB3465615A0D226 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125F3906944693A493F68D6 /* Design.swift */; };
+		2783F970A83580D1461CD651 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339BFB6CD90E743CE088A37 /* ProjectView.swift */; };
+		397034B1FF4681279EE0A5B6 /* MRRadarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5963565F583F44F5814FE /* MRRadarApp.swift */; };
+		4699DD75AC8856C2A497DE94 /* RadarKit in Frameworks */ = {isa = PBXBuildFile; productRef = D39F741C3BDE465EB8132BB2 /* RadarKit */; };
+		52B7B8AE310B3099D432B992 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = BFD46662B2460A0F9FD4E0E4 /* Localizable.xcstrings */; };
+		5C97367985735F5B4D5BF9DC /* MenuPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06E37976EB222C19B42FEEB /* MenuPanel.swift */; };
+		6011843E890D681CB0C90A97 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8720BF26FFA0D30A92FFDA2 /* DashboardView.swift */; };
+		66748D520AA3C8A232D942C6 /* Snapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */; };
+		66961F3ED774273A6CC8A1FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528446BA9D416407333C753 /* main.swift */; };
+		6CA4E20151C3AD47C18F3A4D /* mrradar-cli in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = 9A11797E480F21C721E21FA3 /* mrradar-cli */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8850CD2CE157DB39424FFC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2F55C87F1F85BAA20DC73F /* Assets.xcassets */; };
+		8E3582378AD9C1DFDFFDB77B /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC848B02D91CF0C0E95F04 /* PortfolioView.swift */; };
+		A251C65B607B57433990ACFE /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605D74E316CF34F6F44082C /* SettingsWindow.swift */; };
+		BCB7FEAAF42711CEAFC0522A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D1A678F00CA827D60499CA /* AppModel.swift */; };
+		C03BD50315DC54D9119C6912 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08727420D8D2FF36CAB55A86 /* SettingsView.swift */; };
+		D7C674E7217A042EBF2B9CCA /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30647775677C5D8DD93B8FE /* Format.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9661394E4821A113601240B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E099ACCB0847D4891178E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B87B1028AD2C3857361AF7;
+			remoteInfo = "mrradar-cli";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F9EE4662ADEE889BFD62FBEB /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				6CA4E20151C3AD47C18F3A4D /* mrradar-cli in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08727420D8D2FF36CAB55A86 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshots.swift; sourceTree = "<group>"; };
+		274237CB4897E21BC27CCD20 /* RadarKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RadarKit; path = RadarKit; sourceTree = SOURCE_ROOT; };
+		32F5963565F583F44F5814FE /* MRRadarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRRadarApp.swift; sourceTree = "<group>"; };
+		76D1A678F00CA827D60499CA /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		7DDF10126A9B8B9940C66718 /* MRRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840750E82527C488774A342 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9A11797E480F21C721E21FA3 /* mrradar-cli */ = {isa = PBXFileReference; includeInIndex = 0; path = "mrradar-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A528446BA9D416407333C753 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B106D8D214B7B48C8CFB7AA5 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
+		B605D74E316CF34F6F44082C /* SettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindow.swift; sourceTree = "<group>"; };
+		BFD46662B2460A0F9FD4E0E4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DAEC848B02D91CF0C0E95F04 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		E06E37976EB222C19B42FEEB /* MenuPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPanel.swift; sourceTree = "<group>"; };
+		E125F3906944693A493F68D6 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		E30647775677C5D8DD93B8FE /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		E8720BF26FFA0D30A92FFDA2 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F339BFB6CD90E743CE088A37 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		F7A162B50739501DB245FD01 /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		FF2F55C87F1F85BAA20DC73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACE4CD4B181C42BD5158B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4699DD75AC8856C2A497DE94 /* RadarKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A259BA7B7EA86336A472B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C313CB2F4B7802ED3691DC /* RadarKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09156743F3600F131DC28566 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A11797E480F21C721E21FA3 /* mrradar-cli */,
+				7DDF10126A9B8B9940C66718 /* MRRadar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CE53D1B8486CD240FC1F162 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBF503C9F9DBBF1F16249C6C /* Dashboard */,
+				D5F622265A01F408A4A67424 /* Onboarding */,
+				E125F3906944693A493F68D6 /* Design.swift */,
+				E06E37976EB222C19B42FEEB /* MenuPanel.swift */,
+				08727420D8D2FF36CAB55A86 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73A6CC7689F2D80FFD093A25 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF2F55C87F1F85BAA20DC73F /* Assets.xcassets */,
+				BFD46662B2460A0F9FD4E0E4 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7999E2CFFA3E192A954FE3D7 /* MRRadar */ = {
+			isa = PBXGroup;
+			children = (
+				ED9F0FEBDFD3181931C301C4 /* App */,
+				73A6CC7689F2D80FFD093A25 /* Resources */,
+				9A13A427669FA59CC79D721C /* Support */,
+				5CE53D1B8486CD240FC1F162 /* Views */,
+			);
+			path = MRRadar;
+			sourceTree = "<group>";
+		};
+		82871658C8CE3D7EFFD4BC98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C465F9B135A2801D453BFC39 /* mrradar */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9A13A427669FA59CC79D721C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E30647775677C5D8DD93B8FE /* Format.swift */,
+				B106D8D214B7B48C8CFB7AA5 /* LaunchAtLogin.swift */,
+				F7A162B50739501DB245FD01 /* Notifier.swift */,
+				B605D74E316CF34F6F44082C /* SettingsWindow.swift */,
+				18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A3C27DD153341C0C66B6EB0A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				274237CB4897E21BC27CCD20 /* RadarKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A9AF5F4678FC5797C28DC2B4 = {
+			isa = PBXGroup;
+			children = (
+				7999E2CFFA3E192A954FE3D7 /* MRRadar */,
+				A3C27DD153341C0C66B6EB0A /* Packages */,
+				D8DE33B363088FB147DEA68C /* RadarKit */,
+				09156743F3600F131DC28566 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF503C9F9DBBF1F16249C6C /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				E8720BF26FFA0D30A92FFDA2 /* DashboardView.swift */,
+				DAEC848B02D91CF0C0E95F04 /* PortfolioView.swift */,
+				F339BFB6CD90E743CE088A37 /* ProjectView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C465F9B135A2801D453BFC39 /* mrradar */ = {
+			isa = PBXGroup;
+			children = (
+				A528446BA9D416407333C753 /* main.swift */,
+			);
+			path = mrradar;
+			sourceTree = "<group>";
+		};
+		D5F622265A01F408A4A67424 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8840750E82527C488774A342 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D8DE33B363088FB147DEA68C /* RadarKit */ = {
+			isa = PBXGroup;
+			children = (
+				82871658C8CE3D7EFFD4BC98 /* Sources */,
+			);
+			path = RadarKit;
+			sourceTree = "<group>";
+		};
+		ED9F0FEBDFD3181931C301C4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				76D1A678F00CA827D60499CA /* AppModel.swift */,
+				32F5963565F583F44F5814FE /* MRRadarApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B87B1028AD2C3857361AF7 /* mrradar-cli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD482DAD43CD3A2BC3C3D99C /* Build configuration list for PBXNativeTarget "mrradar-cli" */;
+			buildPhases = (
+				7902AD615E02BC3A5DFA0115 /* Sources */,
+				6ACE4CD4B181C42BD5158B37 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mrradar-cli";
+			packageProductDependencies = (
+				D39F741C3BDE465EB8132BB2 /* RadarKit */,
+			);
+			productName = "mrradar-cli";
+			productReference = 9A11797E480F21C721E21FA3 /* mrradar-cli */;
+			productType = "com.apple.product-type.tool";
+		};
+		E4F0B5F04A0649078FA9ACB3 /* MRRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCBB89D520F47FB5DE875E09 /* Build configuration list for PBXNativeTarget "MRRadar" */;
+			buildPhases = (
+				BA1CF3D496861092822B99FD /* Sources */,
+				C089E2F1952C0D029CA0A71E /* Resources */,
+				8A259BA7B7EA86336A472B9C /* Frameworks */,
+				F9EE4662ADEE889BFD62FBEB /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3179E3F54711A62C1A565DEF /* PBXTargetDependency */,
+			);
+			name = MRRadar;
+			packageProductDependencies = (
+				E0810F0510AAB2A8FDD09A44 /* RadarKit */,
+			);
+			productName = MRRadar;
+			productReference = 7DDF10126A9B8B9940C66718 /* MRRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E099ACCB0847D4891178E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 74ADCAF4670DCBB06F448775 /* Build configuration list for PBXProject "MRRadar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				"pt-BR",
+				tr,
+				"zh-Hans",
+			);
+			mainGroup = A9AF5F4678FC5797C28DC2B4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				647C69768FBD46DF3E586389 /* XCLocalSwiftPackageReference "RadarKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09156743F3600F131DC28566 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4F0B5F04A0649078FA9ACB3 /* MRRadar */,
+				11B87B1028AD2C3857361AF7 /* mrradar-cli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C089E2F1952C0D029CA0A71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8850CD2CE157DB39424FFC8B /* Assets.xcassets in Resources */,
+				52B7B8AE310B3099D432B992 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7902AD615E02BC3A5DFA0115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66961F3ED774273A6CC8A1FF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1CF3D496861092822B99FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB7FEAAF42711CEAFC0522A /* AppModel.swift in Sources */,
+				6011843E890D681CB0C90A97 /* DashboardView.swift in Sources */,
+				1DFDAEB4EBB3465615A0D226 /* Design.swift in Sources */,
+				D7C674E7217A042EBF2B9CCA /* Format.swift in Sources */,
+				0FB083BAE6112307CD4D8975 /* LaunchAtLogin.swift in Sources */,
+				397034B1FF4681279EE0A5B6 /* MRRadarApp.swift in Sources */,
+				5C97367985735F5B4D5BF9DC /* MenuPanel.swift in Sources */,
+				05E1CDC89BC05CB48C14849A /* Notifier.swift in Sources */,
+				09EE519BEDF1E5974E078F2D /* OnboardingView.swift in Sources */,
+				8E3582378AD9C1DFDFFDB77B /* PortfolioView.swift in Sources */,
+				2783F970A83580D1461CD651 /* ProjectView.swift in Sources */,
+				C03BD50315DC54D9119C6912 /* SettingsView.swift in Sources */,
+				A251C65B607B57433990ACFE /* SettingsWindow.swift in Sources */,
+				66748D520AA3C8A232D942C6 /* Snapshots.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3179E3F54711A62C1A565DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B87B1028AD2C3857361AF7 /* mrradar-cli */;
+			targetProxy = E9661394E4821A113601240B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D88B86C6DD75BC2C2724C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.mrradar.cli;
+				PRODUCT_NAME = "mrradar-hub";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA976EB1AC3486D3A76AB9BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5JMD3VSD7N;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MRRadar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Arda Sentürk";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.mrradar;
+				PRODUCT_NAME = MRRadar;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7D39D8BFAA24E213E235481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MRRadar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 Arda Sentürk";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.mrradar;
+				PRODUCT_NAME = MRRadar;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E303CFB116AC5890B0CD21DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		F507C4D60CCA88E9A6EAC692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5JMD3VSD7N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.mrradar.cli;
+				PRODUCT_NAME = "mrradar-hub";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F634A3DC804F4484835027B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74ADCAF4670DCBB06F448775 /* Build configuration list for PBXProject "MRRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634A3DC804F4484835027B7 /* Debug */,
+				E303CFB116AC5890B0CD21DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD482DAD43CD3A2BC3C3D99C /* Build configuration list for PBXNativeTarget "mrradar-cli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D88B86C6DD75BC2C2724C4 /* Debug */,
+				F507C4D60CCA88E9A6EAC692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DCBB89D520F47FB5DE875E09 /* Build configuration list for PBXNativeTarget "MRRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D39D8BFAA24E213E235481 /* Debug */,
+				BA976EB1AC3486D3A76AB9BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		647C69768FBD46DF3E586389 /* XCLocalSwiftPackageReference "RadarKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = RadarKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D39F741C3BDE465EB8132BB2 /* RadarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RadarKit;
+		};
+		E0810F0510AAB2A8FDD09A44 /* RadarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RadarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 43E099ACCB0847D4891178E2 /* Project object */;
+}
