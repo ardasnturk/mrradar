@@ -22,7 +22,10 @@ let engine = Engine(source: demo ? DemoSource() : RevenueCatCLI(), spacing: demo
 let hub = Hub(engine: engine, demo: demo, version: version) { exit(0) }
 
 try hub.start()
-Task { await engine.start() }
+// Before setup is done there is nothing to read; the hub only reports that.
+if demo || RadarPreferences.load().setupFinished {
+    Task { await engine.start() }
+}
 
 if arguments.contains("--attached") {
     let timer = DispatchSource.makeTimerSource(queue: .main)
