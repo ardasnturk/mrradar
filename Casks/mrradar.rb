@@ -5,8 +5,8 @@
 #
 # `version` and `sha256` are updated by scripts/prepare-release.sh.
 cask "mrradar" do
-  version "0.1.0"
-  sha256 "03d683a482abdaea01f1eb0d00c677a68c6940b66178ea1395318c29d2a9edaf"
+  version "0.1.1"
+  sha256 "95ee206940bd59e0b8b78971c94e485ee41c163c726352bdfd47ea0da57e0331"
 
   url "https://github.com/ardasnturk/mrradar/releases/download/v#{version}/MRRadar-#{version}.dmg"
   name "MRRadar"
