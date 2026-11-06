@@ -12,6 +12,7 @@
 		0FB083BAE6112307CD4D8975 /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B106D8D214B7B48C8CFB7AA5 /* LaunchAtLogin.swift */; };
 		13C313CB2F4B7802ED3691DC /* RadarKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0810F0510AAB2A8FDD09A44 /* RadarKit */; };
 		1DFDAEB4EBB3465615A0D226 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125F3906944693A493F68D6 /* Design.swift */; };
+		26E8F14CA2D0607691D69704 /* UpdateCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B64579001E1A2E5045D32B /* UpdateCore.swift */; };
 		2783F970A83580D1461CD651 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339BFB6CD90E743CE088A37 /* ProjectView.swift */; };
 		397034B1FF4681279EE0A5B6 /* MRRadarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F5963565F583F44F5814FE /* MRRadarApp.swift */; };
 		4699DD75AC8856C2A497DE94 /* RadarKit in Frameworks */ = {isa = PBXBuildFile; productRef = D39F741C3BDE465EB8132BB2 /* RadarKit */; };
@@ -21,12 +22,14 @@
 		66748D520AA3C8A232D942C6 /* Snapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */; };
 		66961F3ED774273A6CC8A1FF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528446BA9D416407333C753 /* main.swift */; };
 		6CA4E20151C3AD47C18F3A4D /* mrradar-cli in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = 9A11797E480F21C721E21FA3 /* mrradar-cli */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7478A624A1961C23DF190A8E /* AppUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1258C9FA0838AC960BE233E /* AppUpdater.swift */; };
 		8850CD2CE157DB39424FFC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2F55C87F1F85BAA20DC73F /* Assets.xcassets */; };
 		8E3582378AD9C1DFDFFDB77B /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEC848B02D91CF0C0E95F04 /* PortfolioView.swift */; };
 		A251C65B607B57433990ACFE /* SettingsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605D74E316CF34F6F44082C /* SettingsWindow.swift */; };
 		BCB7FEAAF42711CEAFC0522A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D1A678F00CA827D60499CA /* AppModel.swift */; };
 		C03BD50315DC54D9119C6912 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08727420D8D2FF36CAB55A86 /* SettingsView.swift */; };
 		D7C674E7217A042EBF2B9CCA /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30647775677C5D8DD93B8FE /* Format.swift */; };
+		DDCBCB4B3F0760DD8F05C38C /* UpdateInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AB2942D55135F06150B18 /* UpdateInstaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +57,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		045AB2942D55135F06150B18 /* UpdateInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInstaller.swift; sourceTree = "<group>"; };
 		08727420D8D2FF36CAB55A86 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshots.swift; sourceTree = "<group>"; };
 		274237CB4897E21BC27CCD20 /* RadarKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RadarKit; path = RadarKit; sourceTree = SOURCE_ROOT; };
 		32F5963565F583F44F5814FE /* MRRadarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRRadarApp.swift; sourceTree = "<group>"; };
+		61B64579001E1A2E5045D32B /* UpdateCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCore.swift; sourceTree = "<group>"; };
 		76D1A678F00CA827D60499CA /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		7DDF10126A9B8B9940C66718 /* MRRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8840750E82527C488774A342 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		B106D8D214B7B48C8CFB7AA5 /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
 		B605D74E316CF34F6F44082C /* SettingsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindow.swift; sourceTree = "<group>"; };
 		BFD46662B2460A0F9FD4E0E4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D1258C9FA0838AC960BE233E /* AppUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdater.swift; sourceTree = "<group>"; };
 		DAEC848B02D91CF0C0E95F04 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		E06E37976EB222C19B42FEEB /* MenuPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPanel.swift; sourceTree = "<group>"; };
 		E125F3906944693A493F68D6 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 				ED9F0FEBDFD3181931C301C4 /* App */,
 				73A6CC7689F2D80FFD093A25 /* Resources */,
 				9A13A427669FA59CC79D721C /* Support */,
+				9D28D08FB371A2F9E5276B23 /* Update */,
 				5CE53D1B8486CD240FC1F162 /* Views */,
 			);
 			path = MRRadar;
@@ -155,6 +162,16 @@
 				18F183627CBA7E7CFEDB4D79 /* Snapshots.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		9D28D08FB371A2F9E5276B23 /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				D1258C9FA0838AC960BE233E /* AppUpdater.swift */,
+				61B64579001E1A2E5045D32B /* UpdateCore.swift */,
+				045AB2942D55135F06150B18 /* UpdateInstaller.swift */,
+			);
+			path = Update;
 			sourceTree = "<group>";
 		};
 		A3C27DD153341C0C66B6EB0A /* Packages */ = {
@@ -331,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB7FEAAF42711CEAFC0522A /* AppModel.swift in Sources */,
+				7478A624A1961C23DF190A8E /* AppUpdater.swift in Sources */,
 				6011843E890D681CB0C90A97 /* DashboardView.swift in Sources */,
 				1DFDAEB4EBB3465615A0D226 /* Design.swift in Sources */,
 				D7C674E7217A042EBF2B9CCA /* Format.swift in Sources */,
@@ -344,6 +362,8 @@
 				C03BD50315DC54D9119C6912 /* SettingsView.swift in Sources */,
 				A251C65B607B57433990ACFE /* SettingsWindow.swift in Sources */,
 				66748D520AA3C8A232D942C6 /* Snapshots.swift in Sources */,
+				26E8F14CA2D0607691D69704 /* UpdateCore.swift in Sources */,
+				DDCBCB4B3F0760DD8F05C38C /* UpdateInstaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +482,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -476,7 +496,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,7 +563,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -563,7 +583,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 0.1.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

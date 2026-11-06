@@ -32,6 +32,7 @@ final class AppModel {
     private(set) var lastError: String?
     var selection: SidebarItem? = .portfolio
     var onOpenWindow: (() -> Void)?
+    let updater = AppUpdater()
 
     let cli = RevenueCatCLI()
     private var engine: Engine?
@@ -47,6 +48,7 @@ final class AppModel {
         let delegate = NotificationDelegate { [weak self] project in self?.show(project: project) }
         self.delegate = delegate
         UNUserNotificationCenter.current().delegate = delegate
+        updater.startAutomaticChecks()
         await check()
         #if DEBUG
         if let folder = Snapshots.folder { await Snapshots.run(self, to: folder) }

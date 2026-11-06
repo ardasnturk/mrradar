@@ -16,7 +16,7 @@ CONTEXT = re.compile(
     r'(?:\b(?:Text|Button|Label|Toggle|Section|Picker|LabeledContent|ProgressView|ContentUnavailableView|DisclosureGroup|SecureField)\(\s*'
     r'|String\(localized:\s*|title:\s*|text:\s*|help:\s*|subtitle:\s*|description: Text\(|case \.\w+(?:, \.\w+)*: |shares\(|stat\([^,\n]+,\s*|\? "|: "|\.help\(Text\()$'
 )
-SKIP = {"Day", "Value", "Date", "Revenue", "Series", "MRR", "Week", "Won", "Lost", "Started", "Converted", "Index", "Churn", "App", "Forecast", "RevenueCat CLI", "main", "MRRadar", "ARR", "sk_…"}
+SKIP = {"scope", "Day", "Value", "Date", "Revenue", "Series", "MRR", "Week", "Won", "Lost", "Started", "Converted", "Index", "Churn", "App", "Forecast", "RevenueCat CLI", "main", "MRRadar", "ARR", "sk_…"}
 KEEP = {"28 days", "Checking access…"}
 
 

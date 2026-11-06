@@ -35,6 +35,7 @@ enum Snapshots {
             await render(ProjectView(id: first.id).background(BrandBackground()).preferredColorScheme(.dark), "project", size: CGSize(width: 1240, height: 1720))
         }
         await render(MenuPanel().preferredColorScheme(.dark), "menu", size: CGSize(width: 350, height: 460))
+        await render(SettingsView().preferredColorScheme(.dark), "settings", size: CGSize(width: 780, height: 560))
         for step in SetupStep.allCases {
             model.step = step
             await render(OnboardingView().preferredColorScheme(.dark), "onboarding-\(step.rawValue)", size: CGSize(width: 860, height: 560))
